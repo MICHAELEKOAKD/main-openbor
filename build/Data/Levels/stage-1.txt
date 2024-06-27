@@ -1,6 +1,6 @@
 ## Load music in this area ##
-music		data/music/remix.bor
-bossmusic	data/music/blue.ogg
+music		data/music/One_night_in_Japan.ogg
+bossmusic	data/music/menu.bor
 
 ## Load images in this area ##
 
@@ -8,22 +8,23 @@ bossmusic	data/music/blue.ogg
 background	data/bgs/street/back.gif
 
 # Front layer
-frontpanel	data/bgs/street/f00.gif
-frontpanel	data/bgs/street/f01.gif
-frontpanel	data/bgs/street/f02.gif
-frontpanel	data/bgs/street/f03.gif
+#frontpanel	data/bgs/street/f00.gif
+#frontpanel	data/bgs/street/f01.gif
+#frontpanel	data/bgs/street/f02.gif
+#frontpanel	data/bgs/street/f03.gif
 
 # Load 'panels'. Up to 26 panels can be loaded.
 # They can be referenced using A-Z
 # Specify normal, neon and screen, or 'none'
-panel		data/bgs/street/n01.gif	data/bgs/street/neon01.gif	data/bgs/street/s01.gif
-panel		data/bgs/street/n02.gif	data/bgs/street/neon02.gif	data/bgs/street/s02.gif
-panel		data/bgs/street/n03.gif	none				none
-panel		data/bgs/street/n04.gif	none				none
-panel		data/bgs/street/n05.gif	none				data/bgs/street/s05
-panel		data/bgs/street/n06.gif	none				none
-panel		data/bgs/street/n07.gif	none				none
-panel		data/bgs/street/n05.gif	data/bgs/street/clubk		data/bgs/street/s05
+panel		data/bgs/gatesville/stage-1/n.gif
+#data/bgs/street/s01.gif
+#panel		data/bgs/street/n02.gif	data/bgs/street/neon02.gif	data/bgs/street/s02.gif
+#panel		data/bgs/street/n03.gif	none				none
+#panel		data/bgs/street/n04.gif	none				none
+#panel		data/bgs/street/n05.gif	none				data/bgs/street/s05
+#panel		data/bgs/street/n06.gif	none				none
+#panel		data/bgs/street/n07.gif	none				none
+#panel		data/bgs/street/n05.gif	data/bgs/street/clubk		data/bgs/street/s05
 
 # ab = Pinepot left
 # c = wall, ridge left
@@ -39,8 +40,7 @@ panel		data/bgs/street/n05.gif	data/bgs/street/clubk		data/bgs/street/s05
 #	order	[a...z]		(a sequence of panels, e.g. abcdefghij)
 #	order	[a...z]
 #
-order abcdgghdfdfefdggcd
-order	fdefecdhfecggdab
+order aa
 
 ## Spawning Area ##
 # Spawn format:
@@ -114,8 +114,8 @@ spawn Joe
 coords 360 166
 at 1880
 
-spawn Billy
-coords 360
+spawn angel
+coords 360 120
 at 1880
 
 spawn k9999
@@ -131,10 +131,10 @@ coords 360 166
 at 2403
 
 spawn Billy
-coords 360
+coords 360 243
 at 2403
 
-spawn k9999
+spawn angel
 coords 360 166
 at 2403
 
@@ -147,7 +147,39 @@ coords 360 166
 at 3003
 
 spawn billy
-coords 360
+coords 360   123
+at 3003
+
+spawn k9999
+coords 360 166
+at 3003
+
+spawn k'
+coords -40 210
+at 3003
+
+spawn joe
+coords 360 166
+at 3003
+
+spawn mighty
+coords 360 157
+at 3003
+
+spawn angel
+coords 360 166
+at 3003
+
+spawn k'
+coords -40 210
+at 3003
+
+spawn joe
+coords 360 166
+at 3003
+
+spawn lobster
+coords 360 166
 at 3003
 
 spawn k9999
@@ -174,44 +206,12 @@ spawn k'
 coords -40 210
 at 3003
 
-spawn joe
+spawn angel
 coords 360 166
 at 3003
 
-spawn billy
-coords 360
-at 3003
-
-spawn k9999
+spawn mighty
 coords 360 166
-at 3003
-
-spawn k'
-coords -40 210
-at 3003
-
-spawn joe
-coords 360 166
-at 3003
-
-spawn billy
-coords 360
-at 3003
-
-spawn k9999
-coords 360 166
-at 3003
-
-spawn k'
-coords -40 210
-at 3003
-
-spawn joe
-coords 360 166
-at 3003
-
-spawn billy
-coords 360
 at 3003
 
 spawn mrbig
@@ -232,7 +232,6 @@ at 3760
 
 wait
 at 3760
-
 
 
 
