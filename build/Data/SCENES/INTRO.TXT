@@ -4,3 +4,4 @@
 
 music data/music/blue.ogg 1
 animation	data/scenes/leking.gif 0 0
+animation	data/scenes/michael-1-313.gif 

@@ -160,7 +160,7 @@ item meat
 coords 360 174
 at 3396
 
-spawn mighty
+spawn robert
 health 99999
 boss 1
 coords 244 194
